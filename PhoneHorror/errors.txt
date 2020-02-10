@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+The label comments is defined twice, at
+  File "game/options.rpy", line 101 and
+  File "game/script.rpy", line 88.
+
+Ren'Py Version: Ren'Py 7.3.5.606
+Wed Feb  5 13:50:53 2020

@@ -1,0 +1,28 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 92, in script
+    call screen phone_reply("Phone up Montague","choice11","Check out my photos","choice12")
+ScriptError: could not find label 'choice11'.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "/Users/alex/Downloads/renpy-7.3.5-sdk/renpy/bootstrap.py", line 316, in bootstrap
+    renpy.main.main()
+  File "/Users/alex/Downloads/renpy-7.3.5-sdk/renpy/main.py", line 578, in main
+    run(restart)
+  File "/Users/alex/Downloads/renpy-7.3.5-sdk/renpy/main.py", line 143, in run
+    renpy.execution.run_context(True)
+  File "/Users/alex/Downloads/renpy-7.3.5-sdk/renpy/execution.py", line 908, in run_context
+    context.run()
+  File "game/script.rpy", line 92, in script
+    call screen phone_reply("Phone up Montague","choice11","Check out my photos","choice12")
+  File "/Users/alex/Downloads/renpy-7.3.5-sdk/renpy/script.py", line 898, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'choice11'.
+
+Darwin-18.7.0-x86_64-i386-64bit
+Ren'Py 7.3.5.606
+phone template 1.0
+Wed Feb  5 13:52:41 2020
